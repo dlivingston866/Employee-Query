@@ -42,13 +42,7 @@ function readDepartments() {
     })
 }
 
-//function addDepartment() {
-//connection.query("INSERT INTO department name", function(err, res) {
-//if (err) throw err;
-//console.table(res);
-//askPrompt();
-//})
-//}
+
 
 function askPrompt() {
     inquirer.prompt({
@@ -84,20 +78,6 @@ function askPrompt() {
             case "View All Departments":
                 readDepartments();
                 break;
-
-                //case "Add Department":
-                //   function askPromptA(){
-                //inquirer.prompt({
-                //type:"input",
-                //name: "newDepartmentName",
-                //message: "What is the name of the new Department?",
-                //.then(function(answerA) )
-                //})
-                //}
-
-
-
-
 
 
 
